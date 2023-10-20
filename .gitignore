@@ -3,11 +3,21 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
+
 # C extensions
 *.so
 
 # Ignore JSON configuration files
 *.json
+
+# csv files to ignore
+Data/Cvec_and_values.csv 
+Data/CVEC_phishing_malware.csv
+Data/Merged_cvec_data.csv
+Data/Phis_orMal_predictions.csv
+Data/Spam_notSpam_Predictions.csv
+
 
 # Distribution / packaging
 .Python
